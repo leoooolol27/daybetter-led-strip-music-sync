@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a fault in Daybetter LED Strip Music Sync Controller
+title: "[Bug] "
+body:
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the app
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: Find this under Feedback.
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Windows version and controller model/firmware
+      placeholder: Windows 11 / P065 / firmware 1.2.4
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshot or error text
+      description: Share only information you are comfortable posting publicly.
+
